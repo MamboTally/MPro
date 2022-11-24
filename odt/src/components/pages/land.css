@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding:0;
+    background-color: rgb(73, 73, 80); 
+  }
+  
+  .todo-title{
+    cursor:pointer;
+  }
+  .completed-todo { 
+    text-decoration: line-through;
+  }
+  .tab-list > div {
+    padding: 5px 8px;
+    border : 1px solid rgb(58, 113, 196);
+    border-radius:10px; 
+    margin-right:500px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: black;
+  }
+  .tab-list>div.active {
+    background-color:rgb(58, 113, 196);
+    color:#fff;
+  }
